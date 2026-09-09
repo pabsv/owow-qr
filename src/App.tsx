@@ -206,6 +206,9 @@ export default function App() {
           <span className="eyebrow">(qr studio)</span>
         </div>
         <nav>
+          <a className="btn" href="https://github.com/pabsv/owow-qr" target="_blank" rel="noreferrer">
+            github
+          </a>
           <a className="btn" href="https://www.owow.io" target="_blank" rel="noreferrer">
             owow.io <Arrow />
           </a>
@@ -445,7 +448,12 @@ export default function App() {
 
       <footer className="footer">
         <span>OWOW® ©2026 · Fuutlaan 14E, Eindhoven</span>
-        <span>codes are generated locally, nothing is uploaded</span>
+        <span>
+          codes are generated locally, nothing is uploaded ·{" "}
+          <a href="https://github.com/pabsv/owow-qr" target="_blank" rel="noreferrer">
+            open source on github
+          </a>
+        </span>
       </footer>
 
       {toast ? <div className="toast">{toast}</div> : null}
