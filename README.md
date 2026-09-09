@@ -31,3 +31,5 @@ pnpm build
 - Error correction is always level H. Keep the logo under roughly 12% of the code area; the badge in the preview tells you when it stops scanning.
 - Brand SVGs live in `public/logos` and use `currentColor`, so they follow the chosen foreground colour.
 - Switzer is fetched from Fontshare at export time and embedded as base64, so exported files render correctly anywhere.
+
+Live: https://owow-qr.vercel.app
